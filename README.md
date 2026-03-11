@@ -82,6 +82,16 @@ palette = 15=#c0caf5
 EOF
 ```
 
+Fonts
+
+```sh
+mkdir -p ~/.local/share/fonts
+cd /tmp
+curl -fLo JetBrainsMono.zip https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
+unzip -o JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMono
+fc-cache -fv
+```
+
 ### Getting Started
 
 [The Only Video You Need to Get Started with Neovim](https://youtu.be/m8C0Cq9Uv9o)
