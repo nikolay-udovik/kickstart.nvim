@@ -92,6 +92,14 @@ unzip -o JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMono
 fc-cache -fv
 ```
 
+
+Install oh my tmux
+
+```sh
+https://github.com/gpakosz/.tmux
+```
+
 ### Getting Started
 
 [The Only Video You Need to Get Started with Neovim](https://youtu.be/m8C0Cq9Uv9o)
+
